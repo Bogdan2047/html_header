@@ -1,0 +1,180 @@
+.body {
+    display: block;
+    
+}
+
+.block-one {
+    background-color: #aaa8a8; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-one {
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+.img-one img{
+    width: 140px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    padding-top: 2%;
+    padding-left: 30%;
+    height: 2%;
+    font-family: Playfair Display;
+}
+
+
+
+.links span{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.links span:hover{
+    cursor: pointer;
+    color: #00e0d0;
+    transition: 1ms all ease;
+}
+
+.container {
+   height: 100%;
+   width: auto;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.block-two {
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one {
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.one span {
+    padding-left: 25%;
+}
+
+.two {
+    padding-left: 50%;
+}
+
+.btn {
+    margin-left: 48%;
+    margin-top: 30px;
+}
+
+.btn button {
+    height: 40px;
+    width: 110px;
+    font-size: 13px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+}
+
+.btn button:hover{
+    background-color:#00e0d0;
+    color: white;
+    cursor: pointer;
+    transition: 2ms all ease;
+}
+
+.dots {
+    display:flex;
+    width:200px;
+    margin-top: 300px;
+    padding-left: 50%;
+  }
+  
+  .dot {
+    display:block;
+    height:10px;
+    width:10px;
+    margin-right:10px;
+    background-color:#969696;
+    border-radius:100%;
+  }
+
+  .dot:hover {
+    background-color:#00e0d0;
+    transition: 1ms all ease;
+  }
+  
+
+  @media screen and (min-width: 2560px){
+    .links {
+        padding-top: 3%;
+        padding-left: 20%;
+        height: 2%;
+        font-family: Playfair Display;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .block-two {
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 13%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .one span {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .two {
+        padding-left: 45%;
+    }
+    
+}
+
+@media screen and (min-width: 2560px) {
+    .btn {
+        margin-left: 43%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .dots {
+        display:flex;
+        width:200px;
+        margin-top: 150px;
+        padding-left: 45%;
+      }
+}
